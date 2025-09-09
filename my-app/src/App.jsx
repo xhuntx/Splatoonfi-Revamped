@@ -59,6 +59,7 @@ const Splatoon1button = memo(() => {
   );
 });
 
+
 const App = memo(() => {
   usePerformance();
   return (
