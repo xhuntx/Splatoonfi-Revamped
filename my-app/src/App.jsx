@@ -4,6 +4,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react"
 import Splatoon1Music from "./Other-pages/Splatoon1Music"
 
 export const ScrollReveal = memo(({ children, className = 'my-8' }) => {
@@ -90,6 +91,7 @@ const App = memo(() => {
               </section>
             </div>
             <SpeedInsights />
+            <Analytics />
           </>
         }
       />
