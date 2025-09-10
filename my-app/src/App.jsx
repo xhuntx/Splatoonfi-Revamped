@@ -3,6 +3,7 @@ import { usePerformance } from './hooks/usePerformance';
 import { Routes, Route, Link } from "react-router-dom"; 
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Splatoon1Music from "./Other-pages/Splatoon1Music"
 
 export const ScrollReveal = memo(({ children, className = 'my-8' }) => {
@@ -62,6 +63,7 @@ const Splatoon1button = memo(() => {
 
 const App = memo(() => {
   usePerformance();
+  SpeedInsights();
   return (
     <Routes>
       <Route
