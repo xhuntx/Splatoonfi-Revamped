@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react"
 import Splatoon1Music from "./Other-pages/Splatoon1Music"
+import Splatoon2Music from "./Other-pages/Splatoon2Music"
 
 export const ScrollReveal = memo(({ children, className = 'my-8' }) => {
   const controls = useAnimation();
@@ -61,6 +62,18 @@ const Splatoon1button = memo(() => {
   );
 });
 
+const Splatoon2button = memo(() => {
+  return (
+      <Link
+      to="/splatoon2"
+      className='inline-flex items-center px-8 py-4 bg-zinc-700 hover:bg-gray-600 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-500/50 shadow-lg hover:shadow-xl'
+      >
+      Splatoon 2 Music 
+      </Link>
+  );
+});
+
+
 
 const App = memo(() => {
   usePerformance();
@@ -80,14 +93,19 @@ const App = memo(() => {
                   </ScrollReveal>
                 </div>
               </section>
-
-              <section className="min-h-screen flex gap-8 px-6 py-20 bg-zinc-600">
-                <div className="rounded-xl p-8 bg-zinc-700 shadow-lg max-w-md text-center items-center flex flex-col justify-center">
-                  <img src="/256px-Splatoon_Logo.svg.png" className="w-full h-full object-contain" alt="Splatoon logo"/>
-                  <Splatoon1button/>
-                </div>
-
-                <div className="rounded-xl p-8 bg-zinc-700 shadow-lg max-w-md text-center flex flex-col"></div>
+              <section className="min-h-screen flex items-center justify-center bg-zinc-600 px-4 gap-10">
+                <ScrollReveal className="w-full md:w-auto">
+                  <div className="rounded-xl p-8 bg-zinc-700 shadow-lg max-w-md text-center items-center flex flex-col justify-center">
+                    <img src="/256px-Splatoon_Logo.svg.png" className="w-full h-full object-contain mb-6" alt="Splatoon logo"/>
+                    <Splatoon1button/>
+                  </div>
+                </ScrollReveal>
+                <ScrollReveal className="w-full md:w-auto">
+                  <div className="rounded-xl p-8 bg-zinc-700 shadow-lg max-w-md text-center items-center flex flex-col justify-center">
+                    <img src="/pngegg.png" className="w-full hfull object-contain mb-6" alt="Splatoon 2 logo "/>
+                    <Splatoon2button/>
+                  </div>
+                </ScrollReveal>
               </section>
             </div>
             <SpeedInsights />
@@ -96,6 +114,7 @@ const App = memo(() => {
         }
       />
       <Route path="/splatoon1" element = {<Splatoon1Music/>}/>
+      <Route path="/splatoon2" element = {<Splatoon2Music/>}/>
     </Routes>
 
   );
