@@ -1,0 +1,3 @@
+# Splatoonfi* (name subject to change)
+## Splatoonfi's History:
+This project was originally made for a friend back in middle school. We were both obsessed with the video game Splatoon. And she loved the music, and so did I, so she gave me the idea to make an app with all of the game's music made by the fictional artists. All by myself, I attempted to create the website with no help and no prior experience with HTML. I created the first version of Splatoonfi with HTML and Tailwind. To cut a long story short, I remade the website to help me improve with React and to provide it for the Splatoon community.
