@@ -81,7 +81,7 @@ const handlePlay = (song) => {
             <section className="min-h-screen flex flex-col items-center justify-start gap-8 px-6 py-24 w-full">
               <div className="text-center max-w-4xl mx-auto">
                 <ScrollReveal>
-                  <h1 className="text-4xl font-bold mb-6">Splatoon 1 Music:</h1>
+                  <h1 className="text-4xl font-bold mb-6">Splatoon 1 Music</h1>
                 </ScrollReveal>
               </div>
 
