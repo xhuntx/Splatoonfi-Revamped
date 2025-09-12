@@ -8,6 +8,11 @@ const songsData = [
   { id: 2, title: "Now or Never!", artist: "Toru Minegishi", cover: "/img/SplatTunes.jpeg", audio: "/audio/Now_or_Nvr.mp3" },
   { id: 3, title: "Seaskape", artist: "Toru Minegishi", cover: "/img/SplatTunes.jpeg", audio: "/audio/Seaskape.mp3" },
   { id: 4, title: "Calamari Inkantation", artist: "Shiho Fujii", cover: "/img/SplatTunes.jpeg", audio: "/audio/Calamari_Inkantation.mp3" },
+  {id: 5, title:"Hooked", artist:"Toru Minegishi", cover:"/img/SplatTunes.jpeg", audio:"/audio/Hooked.mp3"},
+  {id: 6, title:"Ink or Sink", artist:"Toru Minegishi ", cover:"/img/SplatTunes.jpeg", audio:"/audio/Ink_or_Sink.mp3"},
+  {id: 7, title:"Split & Splat", artist:"Shiho Fujii", cover:"/img/SplatTunes.jpeg", audio:"/audio/Split_&_Splat.mp3"},
+  {id: 8, title:"Sucker Punch", artist:"Hightide Era", cover:"/img/SplatTunes.jpeg", audio:"/audio/Sucker_Punch.mp3"},
+  {id: 9, title:"Kraken Up", artist:"Toru Minegishi ", cover:"/img/SplatTunes.jpeg", audio:"/audio/Kraken_Up.mp3"},
 ];
 
 const Navbar = memo(({ query, setQuery }) => {
