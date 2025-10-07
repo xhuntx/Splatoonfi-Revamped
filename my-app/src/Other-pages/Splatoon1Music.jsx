@@ -114,7 +114,7 @@ const MusicPage = memo(() => {
                         {playlist.map((song) => (
                           <li
                             key={song.id}
-                            className={`flex items-center justify-between bg-neutral-200 rounded p-2 ${currentSong?.id === song.id ? "ring-2 ring-blue-400" : ""}`}
+                            className={`flex items-center justify-between bg-zinc-600 rounded p-2 ${currentSong?.id === song.id ? "ring-2 ring-blue-400" : ""}`}
                           >
                             <div
                               className="flex items-center gap-2 cursor-pointer"
@@ -175,7 +175,7 @@ const MusicPage = memo(() => {
                         />
                       ) : (
                         <div className="w-32 h-32 flex items-center justify-center bg-zinc-700 rounded-md mb-4">
-                          <Music size={40} className="text-zinc-500" />
+                          <Music size={40} className="text-gray-300" />
                         </div>
                       )}
                       <h2 className="font-semibold">{song.title}</h2>
