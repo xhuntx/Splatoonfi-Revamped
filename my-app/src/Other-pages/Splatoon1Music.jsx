@@ -175,7 +175,7 @@ const MusicPage = memo(() => {
                         />
                       ) : (
                         <div className="w-32 h-32 flex items-center justify-center bg-zinc-700 rounded-md mb-4">
-                          <Music size={40} className="text-gray-400" />
+                          <Music size={40} className="text-zinc-500" />
                         </div>
                       )}
                       <h2 className="font-semibold">{song.title}</h2>
