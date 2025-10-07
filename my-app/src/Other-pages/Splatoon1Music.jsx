@@ -1,4 +1,3 @@
-// MusicPage.jsx
 import { memo, useState, useRef } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import { Search, Music, Play, Pause, Plus, X } from "lucide-react";

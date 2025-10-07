@@ -1,4 +1,3 @@
-// MusicPage.jsx
 import { memo, useState, useRef } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import { Search, Music, Play, Pause, Plus, X } from "lucide-react";
@@ -15,7 +14,6 @@ const songsData = [
   { id: 8, title: "Song 8", artist: "Artist H", cover: "", audio: "" },
   { id: 9, title: "Song 9", artist: "Artist I", cover: "", audio: "" },
 ];
-
 
 const Navbar = memo(({ query, setQuery }) => (
   <div className="w-full fixed top-0 left-0 flex justify-center z-10">
