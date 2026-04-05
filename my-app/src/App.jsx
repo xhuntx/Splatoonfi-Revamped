@@ -88,7 +88,7 @@ const App = memo(() => {
                 <div className="text-center max-w-4xl mx-auto">
                   <ScrollReveal>
                     <h1 className="text-5xl md:text-6xl font-bold">
-                      Hello Splatoonfi
+                      Splatoonfi
                     </h1>
                   </ScrollReveal>
                 </div>

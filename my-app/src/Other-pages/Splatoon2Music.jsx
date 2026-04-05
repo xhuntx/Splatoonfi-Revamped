@@ -4,10 +4,10 @@ import { Search, Music, Play, Pause, Plus, X } from "lucide-react";
 import { ScrollReveal } from "../App";
 
 const songsData = [
-  { id: 1, title: "Song 1", artist: "Artist A", cover: "", audio: "" },
-  { id: 2, title: "Song 2", artist: "Artist B", cover: "", audio: "" },
-  { id: 3, title: "Song 3", artist: "Artist C", cover: "", audio: "" },
-  { id: 4, title: "Song 4", artist: "Artist D", cover: "", audio: "" },
+  { id: 1, title: "Rip Entry", artist: "Toru Minegishi", cover: "img/Rip-Entry.jpg", audio: "audio/Rip-Entry.mp3" },
+  { id: 2, title: "Dont Slip", artist: "Toru Minegishi", cover: "img/Rip-Entry.jpg", audio: "audio/Dont-Slip.mp3" },
+  { id: 3, title: "Undertow", artist: "Toru Minegishi", cover: "img/Rip-Entry.jpg", audio: "audio/Undertow.mp3" },
+  { id: 4, title: "Endolphin Surge", artist: "Toru Minegishi", cover: "img/Rip-Entry.jpg", audio: "audio/Endolphin-Surge.mp3" },
   { id: 5, title: "Song 5", artist: "Artist E", cover: "", audio: "" },
   { id: 6, title: "Song 6", artist: "Artist F", cover: "", audio: "" },
   { id: 7, title: "Song 7", artist: "Artist G", cover: "", audio: "" },
